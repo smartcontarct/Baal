@@ -8,6 +8,7 @@ const { ethers } = require('hardhat');
 
 const _shamans = {
     4: [''],
+	11155111: [''],
 	1: [''],
 	137: [''],
 	42: [''],
@@ -43,7 +44,8 @@ const networkName = {
 	1: 'mainnet',
 	137: 'matic',
 	42: 'kovan',
-	100: 'gnosis'
+	100: 'gnosis',
+	11155111: 'sepolia',
 };
 
 const networkCurrency = {
@@ -52,7 +54,8 @@ const networkCurrency = {
 	1: 'ETH',
 	137: 'matic',
 	42: 'ETH',
-	100: 'xDai'
+	100: 'xDai',
+	11155111: 'ETH',
 };
 
 async function main() {

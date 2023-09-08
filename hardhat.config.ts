@@ -106,12 +106,10 @@ const config: HardhatUserConfig = {
         mnemonic: mnemonic(),
       },
     },
-    mumbai: {
-      url: "https://rpc-mumbai.maticvigil.com/v1/036f1ba8516f0eee2204a574a960b68437ac8661",
+    sepolia: {
+      url: "https://sepolia.infura.io/v3/747db82b23624830a498233814b87c8c",
       gasPrice: 1000000000,
-      accounts: {
-        mnemonic: mnemonic(),
-      },
+      accounts: ["27d12e46aaabcc785dd411bda13aa8d52006e1401408315620e89c24daf7cbb0"],
     },
   },
   etherscan: {
