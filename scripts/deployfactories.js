@@ -8,6 +8,7 @@ const { ethers } = require('hardhat');
 
 const _shamans = {
     4: [''],
+	5: [''],
 	11155111: [''],
 	1: [''],
 	137: [''],
@@ -23,7 +24,7 @@ const _addresses = {
 	gnosisSingleton: "0xd9db270c1b5e3bd161e8c8503c55ceabee709552",
 	gnosisFallbackLibrary: "0xf48f2b2d2a534e402487b3ee7c18c33aec0fe5e4",
 	gnosisMultisendLibrary: "0xa238cbeb142c10ef7ad8442c6d1f9e89e07e7761",
-	poster: "0x000000000000cd17345801aa8147b8D3950260FF",
+	poster: "0x62BdaE7A6e5403343284B183f2E86AAa645b31eE",
 	gnosisSafeProxyFactory: "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2",
 	moduleProxyFactory: "0x00000000062c52e29e8029dc2413172f6d619d85",
 	}

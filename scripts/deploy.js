@@ -10,6 +10,7 @@ const { ethers } = require('hardhat');
 
 const _shamans = {
     4: [''],
+	5: [''],
 	11155111: [''],
 	1: [''],
 	137: ['']
@@ -25,6 +26,7 @@ const _symbol = "BAALTO";
 
 const networkName = {
 	4: 'Rinkeby',
+	5: 'goerli',
 	1: 'mainnet',
 	137: 'matic',
 	11155111: 'sepolia',

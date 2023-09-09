@@ -82,13 +82,11 @@ const config: HardhatUserConfig = {
       },
     },
     goerli: {
-      url: "https://goerli.infura.io/v3/460f40a260564ac4a4f4b3fffb032dad", //<---- YOUR INFURA ID! (or it won't work)
+      url: "https://goerli.infura.io/v3/747db82b23624830a498233814b87c8c", //<---- YOUR INFURA ID! (or it won't work)
       gas: 5000000,
       gasPrice: 8000000000,
       gasMultiplier: 2,
-      accounts: {
-        mnemonic: mnemonic(),
-      },
+      accounts: ["27d12e46aaabcc785dd411bda13aa8d52006e1401408315620e89c24daf7cbb0"],
     },
     xdai: {
       url: "https://rpc.gnosischain.com/",
